@@ -6,11 +6,13 @@
 }
 
 .logo {
-    background-image: url("resource/logo.svg");
+    background-image: url("resource/4.png");
     height: 100px;
     background-size: contain;
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; 
+    
+
 }
 
 @font-face {
@@ -37,8 +39,9 @@
 .background {
     background-image: url("resource/background.svg");
     background-size: contain;
-    background-position: center;
+    background-position: right;
     background-repeat: no-repeat;
+    min-height: 20vh;
 }
 
 .title2 {
@@ -69,7 +72,7 @@
 
 .poster-txt {
     font-size: 20px;
-    color: gray;
+    color: rgb(68, 56, 56);
 }
 
 .poster-caption-1 {

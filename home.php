@@ -12,13 +12,13 @@ require "connection.php";
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Home | eShop</title>
+    <title>Home | Prime-Build</title>
 
     <link rel="stylesheet" href="bootstrap.css" />
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css" />
 
-    <link rel="icon" href="resource/logo.svg" />
+    <link rel="icon" href="resource/4.png" />
 </head>
 
 <body>
@@ -90,6 +90,7 @@ require "connection.php";
 
                     <div class="col-12 d-none d-lg-block mb-3" style="margin-bottom: 50px;">
                         <div class="row">
+                            <div></div>
 
                             <div id="carouselExampleIndicators" class="offset-2 col-8 carousel slide carousel-fade" data-bs-ride="true">
                                 <div class="carousel-indicators">
@@ -99,22 +100,23 @@ require "connection.php";
                                 </div>
                                 <div class="carousel-inner">
                                     <div class="carousel-item active">
-                                        <img src="resource/slider images/posterimg.jpg" class="d-block poster-img-1" />
+                                        <img src="resource/slider images/5.jpg" class="d-block poster-img-1" width="1600px" />
                                         <div class="carousel-caption d-none d-md-block poster-caption">
-                                            <h5 class="poster-title">Welcome to eShop</h5>
+                                            <h5 class="poster-title">Welcome to Prime-Build</h5>
                                             <p class="poster-txt">The World's Best Online Store By One Click.</p>
                                         </div>
                                     </div>
                                     <div class="carousel-item">
-                                        <img src="resource/slider images/posterimg2.jpg" class="d-block poster-img-1" />
+                                        <img src="resource/slider images/WhatsApp Image 2025-05-21 at 23.59.48_0a30c71a.jpg" class="d-block poster-img-1" width="1600px"/>
                                     </div>
                                     <div class="carousel-item">
-                                        <img src="resource/slider images/posterimg3.jpg" class="d-block poster-img-1" />
+                                        <img src="resource/slider images/WhatsApp Image 2025-05-22 at 00.29.14_d9983d00.jpg" class="d-block poster-img-1"  width="1600px"/>
                                         <div class="carousel-caption d-none d-md-block poster-caption-1">
-                                            <h5 class="poster-title">Be Free...</h5>
-                                            <p class="poster-txt">Experience the Lowest Delivery Costs With Us.</p>
+                                            <!-- <h5 class="poster-title">Be Free...</h5> -->
+                                            <!-- <p class="poster-txt">Experience the Lowest Delivery Costs With Us.</p> -->
                                         </div>
                                     </div>
+                                    
                                 </div>
                                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
                                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -254,84 +256,6 @@ require "connection.php";
 
                                                 </div>
                                             </div>
-
-                                            <!-- <div class="card col-6 col-lg-2 mt-2 mb-2" style="width: 18rem;">
-                                                <img src="resource/mobile_images/htc_u.jpg" class="card-img-top img-thumbnail" style="height: 150px;" />
-                                                <div class="card-body ms-0 m-0 text-center">
-                                                    <h5 class="card-title">HTC U <span class="badge bg-info">New</span></h5>
-                                                    <span class="card-text text-primary">Rs. 35000 .00</span> <br />
-                                                    <span class="card-text text-warning fw-bold">In Stock</span> <br />
-                                                    <span class="card-text text-success fw-bold">12 Items Available</span> <br /><br />
-                                                    <button class="col-12 btn btn-success">Buy Now</button>
-                                                    <button class="col-12 btn btn-danger mt-2">Add to Cart</button>
-                                                    <button class="col-12 btn btn-outline-light mt-2 border border-info"><i class="bi bi-heart-fill text-danger fs-5"></i></button>
-                                                </div>
-                                            </div>
-
-                                            <div class="card col-6 col-lg-2 mt-2 mb-2" style="width: 18rem;">
-                                                <img src="resource/mobile_images/huawei_p20.png" class="card-img-top img-thumbnail" style="height: 150px;" />
-                                                <div class="card-body ms-0 m-0 text-center">
-                                                    <h5 class="card-title">Huawei P20 <span class="badge bg-info">New</span></h5>
-                                                    <span class="card-text text-primary">Rs. 30000 .00</span> <br />
-                                                    <span class="card-text text-warning fw-bold">In Stock</span> <br />
-                                                    <span class="card-text text-success fw-bold">8 Items Available</span> <br /><br />
-                                                    <button class="col-12 btn btn-success">Buy Now</button>
-                                                    <button class="col-12 btn btn-danger mt-2">Add to Cart</button>
-                                                    <button class="col-12 btn btn-outline-light mt-2 border border-info"><i class="bi bi-heart-fill text-danger fs-5"></i></button>
-                                                </div>
-                                            </div>
-
-                                            <div class="card col-6 col-lg-2 mt-2 mb-2" style="width: 18rem;">
-                                                <img src="resource/mobile_images/oppo_a95.png" class="card-img-top img-thumbnail" style="height: 150px;" />
-                                                <div class="card-body ms-0 m-0 text-center">
-                                                    <h5 class="card-title">OPPO A95 <span class="badge bg-info">New</span></h5>
-                                                    <span class="card-text text-primary">Rs. 43000 .00</span> <br />
-                                                    <span class="card-text text-warning fw-bold">In Stock</span> <br />
-                                                    <span class="card-text text-success fw-bold">15 Items Available</span> <br /><br />
-                                                    <button class="col-12 btn btn-success">Buy Now</button>
-                                                    <button class="col-12 btn btn-danger mt-2">Add to Cart</button>
-                                                    <button class="col-12 btn btn-outline-light mt-2 border border-info"><i class="bi bi-heart-fill text-danger fs-5"></i></button>
-                                                </div>
-                                            </div>
-
-                                            <div class="card col-6 col-lg-2 mt-2 mb-2" style="width: 18rem;">
-                                                <img src="resource/mobile_images/samsung_s6.jpg" class="card-img-top img-thumbnail" style="height: 150px; width: 150px; margin-left: 40px;" />
-                                                <div class="card-body ms-0 m-0 text-center">
-                                                    <h5 class="card-title">Samsung S6 <span class="badge bg-info">New</span></h5>
-                                                    <span class="card-text text-primary">Rs. 82000 .00</span> <br />
-                                                    <span class="card-text text-warning fw-bold">In Stock</span> <br />
-                                                    <span class="card-text text-success fw-bold">7 Items Available</span> <br /><br />
-                                                    <button class="col-12 btn btn-success">Buy Now</button>
-                                                    <button class="col-12 btn btn-danger mt-2">Add to Cart</button>
-                                                    <button class="col-12 btn btn-outline-light mt-2 border border-info"><i class="bi bi-heart-fill text-danger fs-5"></i></button>
-                                                </div>
-                                            </div>
-
-                                            <div class="justify-content-lg-start card col-6 col-lg-2 mt-2 mb-2" style="width: 18rem;">
-                                                <img src="resource/mobile_images/vivo_y20.svg" class="card-img-top img-thumbnail" style="height: 150px;" />
-                                                <div class="card-body ms-0 m-0 text-center">
-                                                    <h5 class="card-title">VIVO Y20 <span class="badge bg-info">New</span></h5>
-                                                    <span class="card-text text-primary">Rs. 65000 .00</span> <br />
-                                                    <span class="card-text text-warning fw-bold">In Stock</span> <br />
-                                                    <span class="card-text text-success fw-bold">13 Items Available</span> <br /><br />
-                                                    <button class="col-12 btn btn-success">Buy Now</button>
-                                                    <button class="col-12 btn btn-danger mt-2">Add to Cart</button>
-                                                    <button class="col-12 btn btn-outline-light mt-2 border border-info"><i class="bi bi-heart-fill text-danger fs-5"></i></button>
-                                                </div>
-                                            </div>
-
-                                            <div class="card col-6 col-lg-2 mt-2 mb-2" style="width: 18rem;">
-                                                <img src="resource/mobile_images/xperia_10.jpg" class="card-img-top img-thumbnail" style="height: 150px;" />
-                                                <div class="card-body ms-0 m-0 text-center">
-                                                    <h5 class="card-title">Xperia 10 <span class="badge bg-info">New</span></h5>
-                                                    <span class="card-text text-primary">Rs. 45000 .00</span> <br />
-                                                    <span class="card-text text-warning fw-bold">In Stock</span> <br />
-                                                    <span class="card-text text-success fw-bold">18 Items Available</span> <br /><br />
-                                                    <button class="col-12 btn btn-success">Buy Now</button>
-                                                    <button class="col-12 btn btn-danger mt-2">Add to Cart</button>
-                                                    <button class="col-12 btn btn-outline-light mt-2 border border-info"><i class="bi bi-heart-fill text-danger fs-5"></i></button>
-                                                </div>
-                                            </div> -->
 
                                         <?php
 
